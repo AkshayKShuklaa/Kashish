@@ -1,5 +1,38 @@
 export const servicesData = [
   {
+    id: 'party-glam',
+    title: 'Party & Occasion Glam',
+    tagline: 'Signature party glam, glowing natural finishes, and cocktail evening transformations.',
+    category: 'Makeup Artistry',
+    duration: '1.5 - 2 Hours',
+    popular: false,
+    priceNotice: 'Starting at only ₹1,500',
+    features: [
+      'Normal everyday glam or party glow tailored to your outfit',
+      'Flawless base with delicate eye makeup & custom lash enhancement',
+      'High-grade skin prep ensuring fresh radiance throughout the event',
+      'Lip contouring & setting spray lock',
+      'Studio appointment or on-location visit in Lucknow & beyond'
+    ],
+    idealFor: 'Birthdays, cocktails, sangeet guests, family functions, festive glam.'
+  },
+  {
+    id: 'mehandi',
+    title: 'Party & Bridal Mehandi',
+    tagline: 'Intricate traditional and modern designer henna patterns crafted with natural organic stains.',
+    category: 'Henna & Bridal Craft',
+    duration: '1 - 3 Hours',
+    popular: false,
+    priceNotice: 'Starting at ₹1,500',
+    features: [
+      'Fine-line Arabic, Rajasthani, and contemporary fusion motifs',
+      '100% organic herbal henna with deep, rich stain guarantee',
+      'Bridal arms & feet packages or guest party mehandi sessions',
+      'Customized motifs (names, dates, personalized wedding insignias)'
+    ],
+    idealFor: 'Mehandi ceremonies, festive celebrations, Eid, Karwa Chauth, sangeet parties.'
+  },
+  {
     id: 'bridal',
     title: 'The Haute Bridal Signature',
     tagline: 'Flawless camera-ready elegance that stays radiant from ceremony to afterparty.',

@@ -190,7 +190,7 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
                       Studio Bases
                     </p>
                     <p className="text-sm font-medium text-espresso-900">
-                      Mumbai &bull; Delhi NCR &bull; Worldwide Travel
+                      Lucknow (Home Base) &bull; Delhi NCR &bull; Worldwide Travel
                     </p>
                   </div>
                 </div>

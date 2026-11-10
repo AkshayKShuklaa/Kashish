@@ -1,7 +1,7 @@
 export const modelSpecs = {
   name: 'Kashish Chainani',
   tagline: 'Dual Visionary: High-Fashion Model & Luxury Makeup Artist',
-  location: 'Mumbai & Delhi NCR — Available Worldwide',
+  location: 'Lucknow, Uttar Pradesh — Available Worldwide',
   representation: 'Direct & Agency Placement (Open for Global Representation)',
   stats: [
     { label: 'Height', value: "5'9\" / 175 cm" },

@@ -106,13 +106,13 @@ export default function Hero({ onBookClick }) {
               {/* Outer decorative ring */}
               <div className="absolute -inset-3 sm:-inset-4 rounded-3xl border border-sand-300/70 pointer-events-none" />
               
-              <div className="relative overflow-hidden rounded-2xl shadow-luxury aspect-[3/4] bg-sand-200">
+              <div className="relative overflow-hidden rounded-2xl shadow-luxury aspect-square sm:aspect-[4/5] bg-sand-200">
                 <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85"
-                  alt="Kashish - Model and Makeup Artist"
-                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
+                  src="/kashish-hero.jpg"
+                  alt="Kashish Chainani - Model and Makeup Artist"
+                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-espresso-950/70 via-transparent to-black/10" />
+                <div className="absolute inset-0 bg-gradient-to-t from-espresso-950/80 via-espresso-950/20 to-transparent" />
 
                 {/* Bottom caption overlay */}
                 <div className="absolute bottom-5 left-5 right-5 text-white">
