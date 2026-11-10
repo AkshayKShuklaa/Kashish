@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #1E1816;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF8F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8C3AF;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C7846C;
+  }
+}
+
+/* Glassmorphism & luxury borders */
+.glass-nav {
+  background: rgba(250, 248, 245, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(216, 195, 175, 0.35);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(234, 219, 206, 0.6);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #1E1816 20%, #B08E74 60%, #C7846C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.warm-gradient-bg {
+  background: radial-gradient(circle at 10% 20%, rgba(240, 229, 203, 0.4) 0%, rgba(250, 248, 245, 0) 60%),
+              radial-gradient(circle at 90% 80%, rgba(216, 155, 132, 0.15) 0%, rgba(250, 248, 245, 0) 50%);
+}
