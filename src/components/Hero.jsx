@@ -120,7 +120,7 @@ export default function Hero({ onBookClick }) {
                     Editorial Feature &bull; 2024
                   </p>
                   <p className="font-serif text-xl sm:text-2xl font-light tracking-wide mt-0.5">
-                    Kashish Sharma
+                    Kashish Chainani
                   </p>
                   <p className="text-xs text-sand-200 font-light mt-1 flex items-center gap-1.5">
                     <Compass className="w-3.5 h-3.5 text-roseGold-400" />

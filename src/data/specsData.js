@@ -1,5 +1,5 @@
 export const modelSpecs = {
-  name: 'Kashish',
+  name: 'Kashish Chainani',
   tagline: 'Dual Visionary: High-Fashion Model & Luxury Makeup Artist',
   location: 'Mumbai & Delhi NCR — Available Worldwide',
   representation: 'Direct & Agency Placement (Open for Global Representation)',

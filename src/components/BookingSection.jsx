@@ -163,7 +163,7 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
                 </a>
 
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/kashishchainani7_mua_and_model"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3.5 p-3.5 rounded-2xl bg-sand-50 border border-sand-200 hover:border-sand-300 transition-colors group"
@@ -175,8 +175,8 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
                     <p className="text-[10px] uppercase font-bold text-espresso-600 tracking-wider">
                       Instagram Folio
                     </p>
-                    <p className="text-sm font-medium text-espresso-900 group-hover:text-roseGold-600">
-                      @kashish.atelier
+                    <p className="text-sm font-medium text-espresso-900 group-hover:text-roseGold-600 truncate max-w-[220px]">
+                      @kashishchainani7_mua_and_model
                     </p>
                   </div>
                 </a>

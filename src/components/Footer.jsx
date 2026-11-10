@@ -26,7 +26,7 @@ export default function Footer() {
             
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/kashishchainani7_mua_and_model"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-espresso-900 hover:bg-roseGold-600 text-sand-200 hover:text-white flex items-center justify-center transition-colors"
@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-sand-400 gap-4">
           <p className="flex items-center gap-1 font-light">
-            &copy; {new Date().getFullYear()} Kashish. All rights reserved. Designed with <Heart className="w-3 h-3 text-roseGold-500 fill-roseGold-500" /> for high fashion.
+            &copy; {new Date().getFullYear()} Kashish Chainani. All rights reserved. Designed with <Heart className="w-3 h-3 text-roseGold-500 fill-roseGold-500" /> for high fashion.
           </p>
 
           <button
