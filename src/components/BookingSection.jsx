@@ -190,7 +190,7 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
                       Studio Bases
                     </p>
                     <p className="text-sm font-medium text-espresso-900">
-                      Lucknow (Home Base) &bull; Delhi NCR &bull; Worldwide Travel
+                      Lucknow (Home Base) &bull; Kanpur &bull; Gorakhpur &bull; Gonda
                     </p>
                   </div>
                 </div>
@@ -366,7 +366,7 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
                         name="location"
                         value={formData.location}
                         onChange={handleChange}
-                        placeholder="e.g. Udaipur, Mumbai, Lake Como"
+                        placeholder="e.g. Lucknow, Kanpur, Gorakhpur, Gonda"
                         className="w-full px-4 py-3 rounded-xl bg-sand-50/80 border border-sand-200 text-espresso-900 text-sm focus:outline-none focus:ring-2 focus:ring-roseGold-400 focus:bg-white transition-all"
                       />
                     </div>

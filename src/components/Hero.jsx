@@ -93,7 +93,7 @@ export default function Hero({ onBookClick }) {
                 </p>
               </div>
               <div className="text-center lg:text-left">
-                <p className="font-serif text-2xl sm:text-3xl font-medium text-espresso-900">8+ Yrs</p>
+                <p className="font-serif text-2xl sm:text-3xl font-medium text-espresso-900">2+ Yrs</p>
                 <p className="text-[10px] sm:text-xs uppercase tracking-wider text-espresso-600 font-sans mt-0.5">
                   Artistry & Model
                 </p>
@@ -139,7 +139,7 @@ export default function Hero({ onBookClick }) {
                 <div className="text-right shrink-0">
                   <p className="text-[10px] sm:text-xs text-espresso-600 font-light flex items-center justify-end gap-1">
                     <Compass className="w-3.5 h-3.5 text-roseGold-500" />
-                    <span>Paris &bull; Milan &bull; Mumbai &bull; Dubai</span>
+                    <span>Lucknow &bull; Kanpur &bull; Gorakhpur &bull; Gonda</span>
                   </p>
                 </div>
               </div>

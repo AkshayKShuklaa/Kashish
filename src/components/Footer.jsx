@@ -83,7 +83,7 @@ export default function Footer() {
               Agency & Representation
             </p>
             <p className="text-xs text-sand-300 leading-relaxed font-light">
-              Open for direct commissions & agency assignments in Mumbai, Delhi NCR, Dubai, London, and Paris.
+              Available for bridal bookings, party glam & modeling assignments in Lucknow, Kanpur, Gorakhpur, Gonda, and destination events.
             </p>
             <div className="pt-2">
               <span className="inline-block py-1 px-3 rounded-full bg-espresso-900 text-[11px] text-champagne-300 border border-espresso-800">

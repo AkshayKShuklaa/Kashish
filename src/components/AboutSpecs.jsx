@@ -68,7 +68,7 @@ export default function AboutSpecs() {
                 Crafting Stories Through Bone Structure, Light, and Pigment
               </h3>
               <p className="text-sm sm:text-base text-espresso-700 font-sans font-light leading-relaxed">
-                With over eight years walking international runways and gracing editorial spreads, Kashish developed an instinctive comprehension of how camera flashes, soft studio diffusers, and harsh natural sunlight interact with the contours of the human face.
+                With 2+ years of focused professional experience in modeling and bespoke bridal artistry across Uttar Pradesh and beyond, Kashish has developed an instinctive comprehension of how camera flashes, soft studio diffusers, and natural lighting interact with facial contours.
               </p>
               <p className="text-sm sm:text-base text-espresso-700 font-sans font-light leading-relaxed">
                 This deep technical awareness evolved naturally into high-demand artistry. When painting a bride or preparing a model for Paris Fashion Week, she approaches makeup not merely as decoration, but as architectural sculpture—enhancing natural individuality with skin-like breathability.
