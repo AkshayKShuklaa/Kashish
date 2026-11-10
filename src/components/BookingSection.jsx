@@ -113,11 +113,11 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           
-          {/* Left Column: Direct Contacts & Booking Policy */}
-          <div className="lg:col-span-5 space-y-8">
-            <div className="bg-white rounded-3xl p-8 border border-sand-200 shadow-luxury space-y-6">
+          {/* Left Column: Direct Contacts & Booking Policy (Appears second on mobile, first on desktop) */}
+          <div className="lg:col-span-5 space-y-6 sm:space-y-8 order-2 lg:order-1">
+            <div className="bg-white rounded-3xl p-6 sm:p-8 border border-sand-200 shadow-luxury space-y-6">
               <h3 className="font-serif text-2xl font-light text-espresso-950">
                 Direct Atelier Contact
               </h3>
@@ -209,9 +209,9 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
             </div>
           </div>
 
-          {/* Right Column: Interactive Form */}
-          <div className="lg:col-span-7">
-            <div className="bg-white rounded-3xl p-8 sm:p-10 border border-sand-200 shadow-luxury">
+          {/* Right Column: Interactive Form (Appears first on mobile) */}
+          <div className="lg:col-span-7 order-1 lg:order-2">
+            <div className="bg-white rounded-3xl p-6 sm:p-8 sm:p-10 border border-sand-200 shadow-luxury">
               
               {submitted ? (
                 /* Success Confirmation View */

@@ -34,8 +34,8 @@ export default function AboutSpecs() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-20">
           
           {/* Left: Visual Collage */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative mx-auto max-w-md">
+          <div className="lg:col-span-5 relative pr-2 sm:pr-6 pb-6">
+            <div className="relative mx-auto max-w-sm sm:max-w-md">
               {/* Back Image (Artistry in Action) */}
               <div className="rounded-2xl overflow-hidden shadow-luxury border-4 border-white aspect-[4/5] bg-sand-200">
                 <img
@@ -46,7 +46,7 @@ export default function AboutSpecs() {
               </div>
 
               {/* Front Inset Image (Runway Pose) */}
-              <div className="absolute -bottom-8 -right-4 sm:-right-8 w-3/5 rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[3/4] bg-sand-300">
+              <div className="absolute -bottom-4 -right-1 sm:-bottom-8 sm:-right-4 w-3/5 rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[3/4] bg-sand-300">
                 <img
                   src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
                   alt="Kashish - Runway Model Walk"
@@ -55,7 +55,7 @@ export default function AboutSpecs() {
               </div>
 
               {/* Floating aesthetic stamp */}
-              <div className="absolute -top-4 -left-4 glass-card px-4 py-2 rounded-full border border-sand-300 text-xs font-serif italic text-espresso-900 shadow-md">
+              <div className="absolute -top-3 left-2 sm:-top-4 sm:-left-4 glass-card px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-sand-300 text-[11px] sm:text-xs font-serif italic text-espresso-900 shadow-md">
                 Elegance &bull; Precision &bull; Poise
               </div>
             </div>

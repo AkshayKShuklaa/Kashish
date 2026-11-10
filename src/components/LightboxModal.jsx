@@ -28,24 +28,24 @@ export default function LightboxModal({ item, onClose, onPrev, onNext, onInquire
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: 20 }}
           transition={{ duration: 0.3 }}
-          className="relative z-10 w-full max-w-5xl max-h-[92vh] bg-sand-50 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row border border-sand-300"
+          className="relative z-10 w-full max-w-5xl max-h-[92vh] bg-sand-50 rounded-2xl sm:rounded-3xl shadow-2xl overflow-y-auto lg:overflow-hidden flex flex-col lg:flex-row border border-sand-300"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-20 p-2.5 rounded-full bg-espresso-900/60 hover:bg-espresso-900 text-white transition-colors"
+            className="absolute top-3 right-3 sm:top-4 sm:right-4 z-30 p-2 sm:p-2.5 rounded-full bg-espresso-950/80 hover:bg-espresso-900 text-white transition-colors shadow-md"
             aria-label="Close modal"
           >
             <X className="w-5 h-5" />
           </button>
 
           {/* Left: Image Container with Nav Arrows */}
-          <div className="relative flex-1 bg-espresso-950 flex items-center justify-center min-h-[320px] sm:min-h-[420px] lg:min-h-[560px] overflow-hidden group">
+          <div className="relative flex-1 bg-espresso-950 flex items-center justify-center min-h-[260px] sm:min-h-[380px] lg:min-h-[560px] overflow-hidden shrink-0">
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-full object-cover max-h-[85vh]"
+              className="w-full h-full object-cover max-h-[55vh] lg:max-h-[85vh]"
             />
             
             {/* Prev Button */}

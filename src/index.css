@@ -7,12 +7,15 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
   }
 
   body {
     background-color: #FAF8F5;
     color: #1E1816;
     overflow-x: hidden;
+    width: 100%;
   }
 
   /* Custom scrollbar */
