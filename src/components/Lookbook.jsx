@@ -158,3 +158,4 @@ export default function Lookbook({ onSelectLookForBooking }) {
     </section>
   );
 }
+

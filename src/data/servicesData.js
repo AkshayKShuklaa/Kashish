@@ -86,3 +86,4 @@ export const servicesData = [
     idealFor: 'Beauty enthusiasts, brides-to-be, professional career women.'
   }
 ];
+

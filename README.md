@@ -69,3 +69,4 @@ All data is decoupled into structured data files inside `src/data/`:
 This project is zero-config ready for instant deployment on:
 - **Vercel**: Import repository -> Framework preset: `Vite` -> Click Deploy.
 - **Netlify**: Connect repo -> Build command: `npm run build` -> Publish directory: `dist`.
+

@@ -43,3 +43,4 @@ export const modelSpecs = {
     'Dior Beauty Influencer Circle'
   ]
 };
+

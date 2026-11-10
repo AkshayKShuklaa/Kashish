@@ -126,3 +126,4 @@ export const portfolioItems = [
     tags: ['Milan Fashion Week', 'Finale Walk', 'Tailored Luxe', 'High Stance']
   }
 ];
+

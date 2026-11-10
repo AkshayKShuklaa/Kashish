@@ -150,3 +150,4 @@ export default function LightboxModal({ item, onClose, onPrev, onNext, onInquire
     </AnimatePresence>
   );
 }
+

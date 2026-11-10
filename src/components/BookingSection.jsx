@@ -420,3 +420,4 @@ export default function BookingSection({ preSelectedService, preSelectedLook }) 
     </section>
   );
 }
+
